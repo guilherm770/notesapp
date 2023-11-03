@@ -30,6 +30,26 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "djangorestframework"
+version = "3.14.0"
+description = "Web APIs for Django, made easy."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+django = ">=3.0"
+pytz = "*"
+
+[[package]]
+name = "pytz"
+version = "2023.3.post1"
+description = "World timezone definitions, modern and historical"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "sqlparse"
 version = "0.4.4"
 description = "A non-validating SQL parser."
@@ -61,11 +81,13 @@ python-versions = ">=2"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.10.12"
-content-hash = "89b118dcdb9af835e544b0b20bbf036157404624106d61b2ec1afa2b3859595f"
+content-hash = "cd5a1cc25ffb68a55bda1b283539aacb48387b3c702c85a55891a982d42aad9d"
 
 [metadata.files]
 asgiref = []
 django = []
+djangorestframework = []
+pytz = []
 sqlparse = []
 typing-extensions = []
 tzdata = []

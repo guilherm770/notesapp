@@ -7,6 +7,7 @@ authors = ["guilherme <guilherme.rezende@redacaonline.com.br>"]
 [tool.poetry.dependencies]
 python = "3.10.12"
 Django = "^4.2.7"
+djangorestframework = "^3.14.0"
 
 [tool.poetry.dev-dependencies]
 
