@@ -8,6 +8,7 @@ authors = ["guilherme <guilherme.rezende@redacaonline.com.br>"]
 python = "3.10.12"
 Django = "^4.2.7"
 djangorestframework = "^3.14.0"
+django-cors-headers = "^4.3.0"
 
 [tool.poetry.dev-dependencies]
 
